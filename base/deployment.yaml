@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: sbdemo
-          image: jingfang/sbdemo
+          image: liuzhidocker/devops:1.0.1
           ports:
             - containerPort: 8080
           volumeMounts:
