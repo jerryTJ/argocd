@@ -5,8 +5,7 @@ resources:
 - deployment.yaml
 configMapGenerator:
 - files:
-  - application.properties
-  - application-prod.properties
+  - application.yml
   name: demo-configmap
 patches:
 - path: patch.yaml

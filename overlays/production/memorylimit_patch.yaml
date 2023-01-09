@@ -10,9 +10,9 @@ spec:
         - name: sbdemo
           resources:
             limits:
-              memory: 2600Mi
+              memory: 250Mi
             requests:
-              memory: 1250Mi
+              memory: 125Mi
           env:
           - name: MEM_TOTAL_MB
             valueFrom:

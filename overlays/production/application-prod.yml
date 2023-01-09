@@ -1,0 +1,17 @@
+management:
+  health:
+    probes:
+      enabled: true
+  endpoints:
+    web:
+      exposure:
+        include: 'health,metrics,info,prometheus'
+  metrics:
+    tags:
+      application: ${spring.application.name}
+logging:
+  level:
+    root: info
+  path: ${LOG_HOME:/home/ap/logs}
+giltab:
+  url: gitlab.ccbft.com
