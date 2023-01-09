@@ -187,7 +187,6 @@ commonLabels:
   env: prod
 EOF
 ```
-
 Confirm that the resources now all have names prefixed
 by `prod-` and the label tuple `env:prod`:
 

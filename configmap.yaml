@@ -1,9 +1,0 @@
-apiVersion: v1
-kind: Secret
-metadata:
-  name: database-config
-type: Opaque
-data:
-  username: cm9vdA== 
-  password: QWRtaW5AMTIz
-  databaseurl: amRiYzpteXNxbDovL2xvY2FsaG9zdDozMzA2L2FwcGxpZXI/c2VydmVyVGltZXpvbmU9QXNpYS9TaGFuZ2hhaSZ1c2VVbmljb2RlPXRydWUmY2hhcmFjdGVyRW5jb2Rpbmc9VVRGLTgmYWxsb3dNdWx0aVF1ZXJpZXM9dHJ1ZSZ1c2VTU0w9ZmFsc2U=
